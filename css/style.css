@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #AEA897;
+}
+nav{
+    background-color: #A5A8AF;
+    color: white;
+    padding: 10px 0;
+}
