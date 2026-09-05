@@ -1,28 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Directores de Cine</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <style>
+        #titulo-principal {
+            color: #DFDFDF;
+        }
+    </style>
 </head>
-    <header>
-        <nav>
-            <ul>
-                <il><a href="#">INICIO</a></il>
-                <il><a href="#">ACERCA DE</a></il>
-                <il><a href="#">PORTAFOLIO</a></il>
-                <il><a href="#">CONTACTO</a></il>
-            </ul>
-        </nav>
+<body>
+    <header id="encabezado-principal">
+        <h1 id="titulo-principal">Fincher, Nolan y Tarantino</h1>
     </header>
+
+    <nav>
+        <a href="#fincher">David Fincher</a>
+        <a href="#nolan">Christopher Nolan</a>
+        <a href="#tarantino">Quentin Tarantino</a>
+    </nav>
+
     <main>
-        <article>
-            <section></section>
-            <section></section>
-        </article>
+        <section id="fincher" class="tarjeta">
+            <h2>David Fincher</h2>
+            <p>Maestro del thriller psicológico. Su estilo visual es oscuro y perfeccionista.</p>
+            <ul>
+                <li>Fight Club (1999)</li>
+                <li>Se7en (1995)</li>
+                <li>Gone Girl (2014)</li>
+            </ul>
+            <a href="https://www.imdb.com/name/nm0000399/" class="boton-enlace" target="_blank">Perfil en IMDB</a>
+        </section>
+
+        <section id="nolan" class="tarjeta">
+            <h2>Christopher Nolan</h2>
+            <p class="destacado">Famoso por alterar la estructura del tiempo en sus narrativas y usar efectos prácticos impresionantes.</p>
+        </section>
+
+        <section id="tarantino" class="tarjeta">
+            <h2>Quentin Tarantino</h2>
+            <p style="color: #CC9A48; font-weight: bold;">Diálogos explosivos y violencia altamente estilizada.</p>
+        </section>
+
+        <section>
+            <h2>Comparativa</h2>
+            <table>
+                <tr>
+                    <th>Director</th>
+                    <th>Película Clásica</th>
+                    <th>Año</th>
+                </tr>
+                <tr>
+                    <td>Fincher</td>
+                    <td>Se7en</td>
+                    <td>1995</td>
+                </tr>
+                <tr>
+                    <td>Nolan</td>
+                    <td>Inception</td>
+                    <td>2010</td>
+                </tr>
+                <tr>
+                    <td>Tarantino</td>
+                    <td>Pulp Fiction</td>
+                    <td>1994</td>
+                </tr>
+            </table>
+        </section>
     </main>
-    
-    <footer>
+
+    <aside>
+        <h3>Nota Personal</h3>
+        <p>Aquí hablé sobre las películas y directores fovoritos de todos los tiempos, es un pedazo de mí</p>
+    </aside>
+
+    <footer id="pie-pagina">
+        <p>Práctica 5 - Desarrollado por Diego</p>
     </footer>
+</body>
 </html>
